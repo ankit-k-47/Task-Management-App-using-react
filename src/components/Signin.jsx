@@ -31,7 +31,7 @@ e.prevenDefault();
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button  style={is?{backgroundColor:"lightblue"}:{backgroundColor:""}} className="i" onMouseOver={()=>setis(true)} onMouseOut={()=>setis(false)} type="submit"><Link to="/">Submit</Link></button>
+      <button  style={is?{backgroundColor:"lightblue"}:{backgroundColor:""}} className="i" onMouseOver={()=>setis(true)} onMouseOut={()=>setis(false)} type="submit"><Link to="/app">Submit</Link></button>
     </form>
 
   );

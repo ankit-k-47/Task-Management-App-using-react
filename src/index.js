@@ -8,8 +8,8 @@ root.render(
     <React.StrictMode>
     <BrowserRouter>
     <Routes>
-    <Route path='/' element={<App/>}></Route>
-    <Route path='/add' element={<Signin/>}></Route>
+    <Route path='/' element={<Signin/>}></Route>
+    <Route path='/app' element={<App/>}></Route>
     </Routes>
     </BrowserRouter>
     </React.StrictMode>
